@@ -1,0 +1,46 @@
+#title {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+embed {
+    width: 700px; 
+    height: 900px;
+    margin-bottom: 30px;
+}
+.loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.loadText {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -40px;
+    margin-left: 15px;
+}
+#load {
+    margin-top: 60px;
+    width: 200px;
+}
+#adobe-dc-view {
+    position: static;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+    width: 620px;
+    margin-bottom: 60px;
+}
+@media screen and (max-width: 600px) {
+    #adobe-dc-view {
+        height: 500px;
+        width: 330px;
+        margin-bottom: 40px;
+    }
+}
